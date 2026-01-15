@@ -1,0 +1,241 @@
+2026-01-15 10:56:40.023 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2026-01-15 10:56:40.090 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 00:21:6a:ff:fe:f8:98:2d (auto-detected)
+2026-01-15 10:56:40.173 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2026-01-15 10:56:40.173 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2026-01-15 10:56:40.174 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@65494e5e
+2026-01-15 10:56:40.231 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]' for 'POST' to '/wd/hub/session'
+2026-01-15 10:56:40.270 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2026-01-15 10:56:40.270 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2026-01-15 10:56:40.270 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2026-01-15 10:56:40.270 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2026-01-15 10:56:40.270 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2026-01-15 10:56:41.185 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2026-01-15 10:56:41.189 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session HTTP/1.1
+User-Agent: selenium/4.9.0 (java windows)
+traceparent: 00-c7cddf082b78e0af6c142c2646a0ba49-5dd8cd7f3265ab7d-01
+Content-Length: 101
+Content-Type: application/json; charset=utf-8
+host: localhost:4444
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+content-length: 1498
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+
+2026-01-15 10:56:41.203 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4444 for channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]
+2026-01-15 10:56:41.330 [Forwarding deleteAllCookies on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]' for 'DELETE' to 'http://localhost:4444/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/cookie'
+2026-01-15 10:56:41.331 [Forwarding deleteAllCookies on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444] for DELETE '/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/cookie'
+2026-01-15 10:56:41.390 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/cookie HTTP/1.1
+User-Agent: selenium/4.9.0 (java windows)
+traceparent: 00-d465fbab2f45148baf961cc23cb2edea-6e3c80f04261ddfe-01
+Content-Type: application/json; charset=utf-8
+host: localhost:4444
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+content-length: 14
+content-type: application/json; charset=utf-8
+cache-control: no-cache
+
+2026-01-15 10:56:41.390 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4444 for channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]
+2026-01-15 10:56:41.400 [Forwarding setTimeout on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/timeouts'
+2026-01-15 10:56:41.400 [Forwarding setTimeout on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/timeouts'
+2026-01-15 10:56:41.422 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/timeouts HTTP/1.1
+User-Agent: selenium/4.9.0 (java windows)
+traceparent: 00-d546ebf21b8acfe8fd9b2e4e951a1d43-26696f64b846845a-01
+Content-Length: 23
+Content-Type: application/json; charset=utf-8
+host: localhost:4444
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+content-length: 14
+content-type: application/json; charset=utf-8
+cache-control: no-cache
+
+2026-01-15 10:56:41.422 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4444 for channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]
+2026-01-15 10:56:41.426 [Forwarding get on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/url'
+2026-01-15 10:56:41.426 [Forwarding get on session 8fe5b95e87cc01f7e58dfb56538bed76 to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/url'
+2026-01-15 10:56:53.649 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /wd/hub/session/8fe5b95e87cc01f7e58dfb56538bed76/url HTTP/1.1
+User-Agent: selenium/4.9.0 (java windows)
+traceparent: 00-cd008e35100467f7288c576925a41df3-8fad0562894b10cc-01
+Content-Length: 67
+Content-Type: application/json; charset=utf-8
+host: localhost:4444
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 500 Internal Server Error
+content-length: 1161
+content-type: application/json; charset=utf-8
+cache-control: no-cache
+
+2026-01-15 10:56:53.650 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Adding key: http://localhost:4444 for channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]
+2026-01-15 10:56:53.740 [Forwarding newSession on session null to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using pooled Channel '[id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444]' for 'POST' to 'http://localhost:4444/wd/hub/session'
+2026-01-15 10:56:53.740 [Forwarding newSession on session null to remote] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Using open Channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444] for POST '/wd/hub/session'
+2026-01-15 10:59:53.785 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.timeout.TimeoutTimerTask - Request timeout to localhost/127.0.0.1:4444 after 180000 ms for NettyResponseFuture{currentRetry=0,
+	isDone=0,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@2f6fc83c,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@5c461920,
+	future=java.util.concurrent.CompletableFuture@161f7d4c[Not completed],
+	uri=http://localhost:4444/wd/hub/session,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@65942bcd,
+	inAuth=0,
+	touch=1768454813742} after 180045 ms
+2026-01-15 10:59:53.787 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0x549a058c, L:/127.0.0.1:56562 - R:localhost/127.0.0.1:4444] 
+2026-01-15 10:59:53.789 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Aborting Future NettyResponseFuture{currentRetry=0,
+	isDone=0,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@2f6fc83c,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@5c461920,
+	future=java.util.concurrent.CompletableFuture@161f7d4c[Not completed],
+	uri=http://localhost:4444/wd/hub/session,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@65942bcd,
+	inAuth=0,
+	touch=1768454813742}
+
+2026-01-15 10:59:53.790 [AsyncHttpClient-1-2] DEBUG org.asynchttpclient.netty.handler.HttpHandler - Channel Closed: [id: 0x549a058c, L:/127.0.0.1:56562 ! R:localhost/127.0.0.1:4444] with attribute DISCARD
+2026-01-15 10:59:53.789 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50) [async-http-client-2.12.3.jar:?]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-01-15 10:59:53.805 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.AsyncCompletionHandler - Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50) [async-http-client-2.12.3.jar:?]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-01-15 10:59:54.017 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:54.022 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:54.024 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:54.864 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:54.868 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:54.870 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:54.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:54.930 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:54.931 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:54.989 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:54.992 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:54.994 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.030 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.032 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.035 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.073 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.075 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.077 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.113 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.115 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.117 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.185 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.186 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.188 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.236 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.241 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.243 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.296 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.303 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.307 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.376 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.379 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.393 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.460 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.462 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.463 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.495 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.496 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.497 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.524 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.526 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.527 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.557 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.559 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.560 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.588 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.589 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.590 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.627 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-01-15 10:59:55.627 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-01-15 10:59:55.628 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2026-01-15 10:59:55.684 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.channel.NettyConnectListener - Using new Channel '[id: 0xd108359c, L:/127.0.0.1:56649 - R:localhost/127.0.0.1:4444]' for 'POST' to '/wd/hub/session'
+2026-01-15 11:02:55.728 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.timeout.TimeoutTimerTask - Request timeout to localhost/127.0.0.1:4444 after 180000 ms for NettyResponseFuture{currentRetry=0,
+	isDone=0,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@605ba454,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@5ea8fee,
+	future=java.util.concurrent.CompletableFuture@7653f541[Not completed],
+	uri=http://localhost:4444/wd/hub/session,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@28d4dd6a,
+	inAuth=0,
+	touch=1768454995691} after 180047 ms
+2026-01-15 11:02:55.731 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.ChannelManager - Closing Channel [id: 0xd108359c, L:/127.0.0.1:56649 - R:localhost/127.0.0.1:4444] 
+2026-01-15 11:02:55.733 [AsyncHttpClient-1-3] DEBUG org.asynchttpclient.netty.handler.HttpHandler - Channel Closed: [id: 0xd108359c, L:/127.0.0.1:56649 ! R:localhost/127.0.0.1:4444] with attribute DISCARD
+2026-01-15 11:02:55.733 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Aborting Future NettyResponseFuture{currentRetry=0,
+	isDone=0,
+	isCancelled=0,
+	asyncHandler=org.asynchttpclient.AsyncCompletionHandlerBase@605ba454,
+	nettyRequest=org.asynchttpclient.netty.request.NettyRequest@5ea8fee,
+	future=java.util.concurrent.CompletableFuture@7653f541[Not completed],
+	uri=http://localhost:4444/wd/hub/session,
+	keepAlive=true,
+	redirectCount=0,
+	timeoutsHolder=org.asynchttpclient.netty.timeout.TimeoutsHolder@28d4dd6a,
+	inAuth=0,
+	touch=1768454995691}
+
+2026-01-15 11:02:55.734 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.request.NettyRequestSender - Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50) [async-http-client-2.12.3.jar:?]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+2026-01-15 11:02:55.744 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.AsyncCompletionHandler - Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:4444 after 180000 ms
+	at org.asynchttpclient.netty.timeout.TimeoutTimerTask.expire(TimeoutTimerTask.java:43) [async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.netty.timeout.RequestTimeoutTimerTask.run(RequestTimeoutTimerTask.java:50) [async-http-client-2.12.3.jar:?]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.run(HashedWheelTimer.java:715) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.ImmediateExecutor.execute(ImmediateExecutor.java:34) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:703) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:790) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.HashedWheelTimer$Worker.run(HashedWheelTimer.java:503) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.91.Final.jar:4.1.91.Final]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
